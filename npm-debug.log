@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'socket', 'i.o' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose config Skipping project config: /Users/user/.npmrc. (matches userconfig)
+5 verbose cache add [ 'socket', null ]
+6 verbose cache add name=undefined spec="socket" args=["socket",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'socket',
+7 verbose parsed url   path: 'socket',
+7 verbose parsed url   href: 'socket' }
+8 verbose cache add [ 'i.o', null ]
+9 verbose cache add name=undefined spec="i.o" args=["i.o",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'i.o',
+10 verbose parsed url   path: 'i.o',
+10 verbose parsed url   href: 'i.o' }
+11 silly lockFile 897d2105-socket socket
+12 verbose lock socket /Users/user/.npm/897d2105-socket.lock
+13 silly lockFile 68b319d0-i-o i.o
+14 verbose lock i.o /Users/user/.npm/68b319d0-i-o.lock
+15 silly lockFile 897d2105-socket socket
+16 silly lockFile 897d2105-socket socket
+17 silly lockFile 68b319d0-i-o i.o
+18 silly lockFile 68b319d0-i-o i.o
+19 verbose addNamed [ 'socket', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 45707214-socket socket@
+22 verbose lock socket@ /Users/user/.npm/45707214-socket.lock
+23 verbose addNamed [ 'i.o', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile f4b9c78d-i-o i.o@
+26 verbose lock i.o@ /Users/user/.npm/f4b9c78d-i-o.lock
+27 silly addNameRange { name: 'socket', range: '*', hasData: false }
+28 verbose request where is /socket
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 7a3ec8f8814fd001
+31 verbose url raw /socket
+32 verbose url resolving [ 'https://registry.npmjs.org/', './socket' ]
+33 verbose url resolved https://registry.npmjs.org/socket
+34 verbose request where is https://registry.npmjs.org/socket
+35 info trying registry request attempt 1 at 13:35:27
+36 http GET https://registry.npmjs.org/socket
+37 silly addNameRange { name: 'i.o', range: '*', hasData: false }
+38 verbose request where is /i.o
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /i.o
+41 verbose url resolving [ 'https://registry.npmjs.org/', './i.o' ]
+42 verbose url resolved https://registry.npmjs.org/i.o
+43 verbose request where is https://registry.npmjs.org/i.o
+44 info trying registry request attempt 1 at 13:35:27
+45 http GET https://registry.npmjs.org/i.o
+46 http 200 https://registry.npmjs.org/socket
+47 silly registry.get cb [ 200,
+47 silly registry.get   { date: 'Tue, 03 Feb 2015 18:30:34 GMT',
+47 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 silly registry.get     etag: '"1HP49LBXI1TS7RGOCA7JE0EQ5"',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=60',
+47 silly registry.get     'content-length': '1451',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     'x-served-by': 'cache-jfk1032-JFK',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1422988234.706303,VS0,VE16',
+47 silly registry.get     vary: 'Accept',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 http 404 https://registry.npmjs.org/i.o
+49 verbose headers { date: 'Tue, 03 Feb 2015 18:30:34 GMT',
+49 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'cache-control': 'max-age=0',
+49 verbose headers   'content-length': '52',
+49 verbose headers   'accept-ranges': 'bytes',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   age: '0',
+49 verbose headers   'x-served-by': 'cache-jfk1034-JFK',
+49 verbose headers   'x-cache': 'MISS',
+49 verbose headers   'x-cache-hits': '0',
+49 verbose headers   'x-timer': 'S1422988234.693903,VS0,VE75',
+49 verbose headers   'keep-alive': 'timeout=10, max=50',
+49 verbose headers   connection: 'Keep-Alive' }
+50 silly registry.get cb [ 404,
+50 silly registry.get   { date: 'Tue, 03 Feb 2015 18:30:34 GMT',
+50 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=0',
+50 silly registry.get     'content-length': '52',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1422988234.693903,VS0,VE75',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 silly lockFile f4b9c78d-i-o i.o@
+52 silly lockFile f4b9c78d-i-o i.o@
+53 silly addNameRange number 2 { name: 'socket', range: '*', hasData: true }
+54 silly addNameRange versions [ 'socket', [ '0.0.1' ] ]
+55 verbose addNamed [ 'socket', '0.0.1' ]
+56 verbose addNamed [ '0.0.1', '0.0.1' ]
+57 silly lockFile ccbb8590-socket-0-0-1 socket@0.0.1
+58 verbose lock socket@0.0.1 /Users/user/.npm/ccbb8590-socket-0-0-1.lock
+59 silly lockFile 22226b48-pmjs-org-socket-socket-0-0-1-tgz https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+60 verbose lock https://registry.npmjs.org/socket/-/socket-0.0.1.tgz /Users/user/.npm/22226b48-pmjs-org-socket-socket-0-0-1-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz',
+61 verbose addRemoteTarball   '29ac6549f15a65b19f3444a4178d537a8c161a8b' ]
+62 info retry fetch attempt 1 at 13:35:33
+63 verbose fetch to= /var/folders/rb/mlpb_cpd1q316v5f5t5td5sc0000gn/T/npm-6616-BKcRCQcE/registry.npmjs.org/socket/-/socket-0.0.1.tgz
+64 http GET https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+65 http 200 https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+66 silly lockFile 22226b48-pmjs-org-socket-socket-0-0-1-tgz https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+67 silly lockFile 22226b48-pmjs-org-socket-socket-0-0-1-tgz https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+68 silly lockFile ccbb8590-socket-0-0-1 socket@0.0.1
+69 silly lockFile ccbb8590-socket-0-0-1 socket@0.0.1
+70 silly lockFile 45707214-socket socket@
+71 silly lockFile 45707214-socket socket@
+72 error 404 404 Not Found: i.o
+72 error 404
+72 error 404 'i.o' is not in the npm registry.
+72 error 404 You should bug the author to publish it
+72 error 404
+72 error 404 Note that you can also install from a
+72 error 404 tarball, folder, or http url, or git url.
+73 error System Darwin 13.4.0
+74 error command "node" "/usr/local/bin/npm" "install" "socket" "i.o"
+75 error cwd /Users/user/Desktop/NodeChat
+76 error node -v v0.10.36
+77 error npm -v 1.4.28
+78 error code E404
+79 verbose exit [ 1, true ]
